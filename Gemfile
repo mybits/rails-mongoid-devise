@@ -4,6 +4,7 @@ gem 'jquery-rails'
 gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
 gem 'devise'
 gem 'haml-rails'
+gem 'thin'
 
 group :assets do
   gem 'sass-rails', '~> 4.0.0'
@@ -13,6 +14,7 @@ end
 
 group :development do
   gem 'html2haml'
+  gem 'better_errors'
 end
 
 group :development, :test do
