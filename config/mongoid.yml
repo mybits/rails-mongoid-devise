@@ -8,6 +8,7 @@ development:
       database: mongoid_devise_rails_development
       # Provides the hosts the default session can connect to. Must be an array
       # of host:port pairs. (required)
+      Mongoid.raise_not_found_error: false
       hosts:
         - localhost:27017
       options:
